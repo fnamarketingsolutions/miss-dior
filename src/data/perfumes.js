@@ -11,7 +11,11 @@ import fallen2 from '../assets/mergenta-perfume.png'
 import fallen3 from '../assets/green-perfume.png'
 import fallen4 from '../assets/pink-crown-perfume.png'
 import fallen5 from '../assets/brown-perfume.png'
-
+import yellowPerfume from '../assets/yellow-perfume.png'
+import pinkishPerfume from '../assets/babypink-perfume.png'
+import skybluePerfume from '../assets/skyblue-perfume.png'
+import peachPerfume from '../assets/peach-perfume.png'
+import darkPinkPerfume from '../assets/darkpink-perfume.png'
 
 /** Catalog used by the boutique diorama and infinite scatter shop. */
 
@@ -114,6 +118,151 @@ export const perfumes = [
   },
 ]
 
+// scatter images //
+export const scatterPerfumes = [
+  {
+    id: 'rose-n-roses',
+    name: 'Rose n’Roses',
+    note: 'A sparkling rose bouquet with a bright citrus opening.',
+    image: fallen1,
+    accent: '#f7c6d0',
+    glass: '#e8a0b0',
+  },
+  {
+    id: 'blooming-bouquet',
+    name: 'Blooming Bouquet',
+    note: 'Peony and damask rose — soft, airy, and luminous.',
+    image: fallen2,
+    accent: '#f9e4ea',
+    glass: '#d4a5b0',
+  },
+  {
+    id: 'absolutely-blooming',
+    name: 'Absolutely Blooming',
+    note: 'An intense floral trail with a creamy musk base.',
+    image: fallen3,
+    accent: '#e8a0b0',
+    glass: '#c97890',
+  },
+  {
+    id: 'parfum',
+    name: 'Miss Dior Parfum',
+    note: 'The richest expression — roses wrapped in warm woods.',
+    image: darkPinkPerfume,
+    accent: '#f3b8c4',
+    glass: '#b86b80',
+  },
+  {
+    id: 'eau-de-parfum',
+    name: 'Eau de Parfum',
+    note: 'The signature heart — romantic, modern, unmistakably Dior.',
+    image: fallen5,
+    accent: '#f7c6d0',
+    glass: '#dea0ae',
+  },
+  {
+    id: 'rose-essence',
+    name: 'Rose Essence',
+    note: 'Centifolia rose distilled into a silk-soft trail.',
+    image: yellowPerfume,
+    accent: '#f9e4ea',
+    glass: '#e8b4c0',
+  },
+  {
+    id: 'cherie',
+    name: 'Miss Dior Chérie',
+    note: 'A playful strawberry-rose spark with a velvet finish.',
+    image: pinkishPerfume,
+    accent: '#f3b8c4',
+    glass: '#d48a9c',
+  },
+  {
+    id: 'blooming-rose',
+    name: 'Blooming Rose',
+    note: 'Fresh petals over a sheer white-musk base.',
+    image: fallen3,
+    accent: '#f7c6d0',
+    glass: '#e0a8b6',
+  },
+  {
+    id: 'velvet-rose',
+    name: 'Velvet Rose',
+    note: 'Deep damask rose with a powdery, intimate dry-down.',
+    image: fallen4,
+    accent: '#e8a0b0',
+    glass: '#a85c72',
+  },
+  {
+    id: 'light-bouquet',
+    name: 'Light Bouquet',
+    note: 'A sheer, daylight rose for skin that glows.',
+    image: fallen5,
+    accent: '#f9e4ea',
+    glass: '#ecc0ca',
+  },
+  {
+    id: 'rose-garden',
+    name: 'Rose Garden',
+    note: 'Green stems and peony — a garden at first light.',
+    image: skybluePerfume,
+    accent: '#f3b8c4',
+    glass: '#c9a0aa',
+  },
+  {
+    id: 'amour',
+    name: 'Miss Dior Amour',
+    note: 'A love letter in musk, rose, and soft woods.',
+    image: peachPerfume,
+    accent: '#f7c6d0',
+    glass: '#d892a4',
+  },
+]
+
+
+
+export const wavyPerfumes = [
+  {
+    id: 'rose-n-roses',
+    name: 'Rose n’Roses',
+    note: 'A sparkling rose bouquet with a bright citrus opening.',
+    image: perfume1,
+    accent: '#f7c6d0',
+    glass: '#e8a0b0',
+  },
+  {
+    id: 'blooming-bouquet',
+    name: 'Blooming Bouquet',
+    note: 'Peony and damask rose — soft, airy, and luminous.',
+    image: perfume2,
+    accent: '#f9e4ea',
+    glass: '#d4a5b0',
+  },
+  {
+    id: 'absolutely-blooming',
+    name: 'Absolutely Blooming',
+    note: 'An intense floral trail with a creamy musk base.',
+    image: perfume3,
+    accent: '#e8a0b0',
+    glass: '#c97890',
+  },
+  {
+    id: 'parfum',
+    name: 'Miss Dior Parfum',
+    note: 'The richest expression — roses wrapped in warm woods.',
+    image: perfume4,
+    accent: '#f3b8c4',
+    glass: '#b86b80',
+  },
+  {
+    id: 'eau-de-parfum',
+    name: 'Eau de Parfum',
+    note: 'The signature heart — romantic, modern, unmistakably Dior.',
+    image: bottle,
+    accent: '#f7c6d0',
+    glass: '#dea0ae',
+  },
+]
+
 /**
  * Five bottles standing on the grass. Y is replaced with the curved ground height.
  */
@@ -126,7 +275,7 @@ export const dioramaPerfumes = [
 ]
 
 export function getPerfume(id) {
-  return perfumes.find((p) => p.id === id)
+  return wavyPerfumes.find((p) => p.id === id)
 }
 
 // find yours section //
