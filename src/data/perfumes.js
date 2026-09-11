@@ -18,6 +18,8 @@ import greenPerfume from '../assets/green-perfume.png'
 import brownPerfume from '../assets/brown-perfume.png'
 import peachPerfume from '../assets/peach-perfume.png'
 import darkPinkPerfume from '../assets/darkpink-perfume.png'
+import pinkCrwonPerfume from '../assets/pink-crown-perfume.png'
+import mergentaPerfume from '../assets/mergenta-perfume.png'
 import { greaterThanEqual } from 'three/tsl'
 
 /** Catalog used by the boutique diorama and infinite scatter shop. */
@@ -228,7 +230,7 @@ export const wavyPerfumes = [
     id: 'rose-n-roses',
     name: 'Rose n’Roses',
     note: 'A sparkling rose bouquet with a bright citrus opening.',
-    image: perfume1,
+    image: pinkCrwonPerfume,
     accent: '#f7c6d0',
     glass: '#e8a0b0',
   },
@@ -236,7 +238,7 @@ export const wavyPerfumes = [
     id: 'blooming-bouquet',
     name: 'Blooming Bouquet',
     note: 'Peony and damask rose — soft, airy, and luminous.',
-    image: perfume2,
+    image: mergentaPerfume,
     accent: '#f9e4ea',
     glass: '#d4a5b0',
   },
@@ -244,7 +246,7 @@ export const wavyPerfumes = [
     id: 'absolutely-blooming',
     name: 'Absolutely Blooming',
     note: 'An intense floral trail with a creamy musk base.',
-    image: perfume3,
+    image: yellowPerfume,
     accent: '#e8a0b0',
     glass: '#c97890',
   },
@@ -252,7 +254,7 @@ export const wavyPerfumes = [
     id: 'parfum',
     name: 'NIVA Parfum',
     note: 'The richest expression — roses wrapped in warm woods.',
-    image: perfume4,
+    image: perfume3,
     accent: '#f3b8c4',
     glass: '#b86b80',
   },
@@ -260,7 +262,7 @@ export const wavyPerfumes = [
     id: 'eau-de-parfum',
     name: 'Eau de Parfum',
     note: 'The signature heart — romantic, modern, unmistakably NIVA.',
-    image: bottle,
+    image: darkPinkPerfume,
     accent: '#f7c6d0',
     glass: '#dea0ae',
   },

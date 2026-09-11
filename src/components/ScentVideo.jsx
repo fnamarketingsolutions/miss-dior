@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import videoSrc from '../assets/miss-dior-video.mp4'
+import videoSrc from '../assets/second-section-video.mp4'
 
 gsap.registerPlugin(ScrollTrigger)
 
