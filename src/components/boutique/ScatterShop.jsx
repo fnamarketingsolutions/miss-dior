@@ -443,7 +443,7 @@ export default function ScatterShop({ onClose }) {
           className="pointer-events-none absolute inset-x-0 top-0 flex items-start justify-between p-5 md:p-8"
         >
           <p className="pointer-events-none font-display text-3xl tracking-[0.12em] text-deep md:text-5xl">
-            Miss Dior
+            NIVA
           </p>
           <button
             type="button"

@@ -14,8 +14,11 @@ import fallen5 from '../assets/brown-perfume.png'
 import yellowPerfume from '../assets/yellow-perfume.png'
 import pinkishPerfume from '../assets/babypink-perfume.png'
 import skybluePerfume from '../assets/skyblue-perfume.png'
+import greenPerfume from '../assets/green-perfume.png'
+import brownPerfume from '../assets/brown-perfume.png'
 import peachPerfume from '../assets/peach-perfume.png'
 import darkPinkPerfume from '../assets/darkpink-perfume.png'
+import { greaterThanEqual } from 'three/tsl'
 
 /** Catalog used by the boutique diorama and infinite scatter shop. */
 
@@ -46,7 +49,7 @@ export const perfumes = [
   },
   {
     id: 'parfum',
-    name: 'Miss Dior Parfum',
+    name: 'NIVA Parfum',
     note: 'The richest expression — roses wrapped in warm woods.',
     image: perfume4,
     accent: '#f3b8c4',
@@ -55,7 +58,7 @@ export const perfumes = [
   {
     id: 'eau-de-parfum',
     name: 'Eau de Parfum',
-    note: 'The signature heart — romantic, modern, unmistakably Dior.',
+    note: 'The signature heart — romantic, modern, unmistakably NIVA.',
     image: bottle,
     accent: '#f7c6d0',
     glass: '#dea0ae',
@@ -70,7 +73,7 @@ export const perfumes = [
   },
   {
     id: 'cherie',
-    name: 'Miss Dior Chérie',
+    name: 'NIVA Chérie',
     note: 'A playful strawberry-rose spark with a velvet finish.',
     image: fallen1,
     accent: '#f3b8c4',
@@ -110,7 +113,7 @@ export const perfumes = [
   },
   {
     id: 'amour',
-    name: 'Miss Dior Amour',
+    name: 'NIVA Amour',
     note: 'A love letter in musk, rose, and soft woods.',
     image: bottle,
     accent: '#f7c6d0',
@@ -146,7 +149,7 @@ export const scatterPerfumes = [
   },
   {
     id: 'parfum',
-    name: 'Miss Dior Parfum',
+    name: 'NIVA Parfum',
     note: 'The richest expression — roses wrapped in warm woods.',
     image: darkPinkPerfume,
     accent: '#f3b8c4',
@@ -155,7 +158,7 @@ export const scatterPerfumes = [
   {
     id: 'eau-de-parfum',
     name: 'Eau de Parfum',
-    note: 'The signature heart — romantic, modern, unmistakably Dior.',
+    note: 'The signature heart — romantic, modern, unmistakably NIVA.',
     image: fallen5,
     accent: '#f7c6d0',
     glass: '#dea0ae',
@@ -170,7 +173,7 @@ export const scatterPerfumes = [
   },
   {
     id: 'cherie',
-    name: 'Miss Dior Chérie',
+    name: 'NIVA Chérie',
     note: 'A playful strawberry-rose spark with a velvet finish.',
     image: pinkishPerfume,
     accent: '#f3b8c4',
@@ -210,7 +213,7 @@ export const scatterPerfumes = [
   },
   {
     id: 'amour',
-    name: 'Miss Dior Amour',
+    name: 'NIVA Amour',
     note: 'A love letter in musk, rose, and soft woods.',
     image: peachPerfume,
     accent: '#f7c6d0',
@@ -247,7 +250,7 @@ export const wavyPerfumes = [
   },
   {
     id: 'parfum',
-    name: 'Miss Dior Parfum',
+    name: 'NIVA Parfum',
     note: 'The richest expression — roses wrapped in warm woods.',
     image: perfume4,
     accent: '#f3b8c4',
@@ -256,7 +259,7 @@ export const wavyPerfumes = [
   {
     id: 'eau-de-parfum',
     name: 'Eau de Parfum',
-    note: 'The signature heart — romantic, modern, unmistakably Dior.',
+    note: 'The signature heart — romantic, modern, unmistakably NIVA.',
     image: bottle,
     accent: '#f7c6d0',
     glass: '#dea0ae',
@@ -286,7 +289,7 @@ export const findYoursPerfumes = [
     id: 'rose-n-roses',
     name: 'Rose n’Roses',
     note: 'A sparkling rose bouquet with a bright citrus opening.',
-    image: perfume1,
+    image: darkPinkPerfume,
     accent: '#f7c6d0',
     glass: '#e8a0b0',
   },
@@ -294,7 +297,7 @@ export const findYoursPerfumes = [
     id: 'blooming-bouquet',
     name: 'Blooming Bouquet',
     note: 'Peony and damask rose — soft, airy, and luminous.',
-    image: perfume2,
+    image: greenPerfume,
     accent: '#f9e4ea',
     glass: '#d4a5b0',
   },
@@ -302,23 +305,23 @@ export const findYoursPerfumes = [
     id: 'absolutely-blooming',
     name: 'Absolutely Blooming',
     note: 'An intense floral trail with a creamy musk base.',
-    image: perfume3,
+    image: brownPerfume,
     accent: '#e8a0b0',
     glass: '#c97890',
   },
   {
     id: 'parfum',
-    name: 'Miss Dior Parfum',
+    name: 'NIVA Parfum',
     note: 'The richest expression — roses wrapped in warm woods.',
-    image: perfume4,
+    image: skybluePerfume,
     accent: '#f3b8c4',
     glass: '#b86b80',
   },
   {
     id: 'eau-de-parfum',
     name: 'Eau de Parfum',
-    note: 'The signature heart — romantic, modern, unmistakably Dior.',
-    image: bottle,
+    note: 'The signature heart — romantic, modern, unmistakably NIVA.',
+    image: peachPerfume,
     accent: '#f7c6d0',
     glass: '#dea0ae',
   },
@@ -339,7 +342,7 @@ export const fallenFromPerfumes = [
   },
   {
     id: 'cherie',
-    name: 'Miss Dior Chérie',
+    name: 'NIVA Chérie',
     note: 'A playful strawberry-rose spark with a velvet finish.',
     image: fallen2,
     accent: '#f9e4ea',

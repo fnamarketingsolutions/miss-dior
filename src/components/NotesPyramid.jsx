@@ -15,7 +15,7 @@ const notes = [
   {
     tier: 'Heart',
     title: 'Damask Rose & Peony',
-    desc: 'The signature bouquet — soft, romantic, unmistakably Miss Dior.',
+    desc: 'The signature bouquet — soft, romantic, unmistakably NIVA.',
   },
   {
     tier: 'Base',
@@ -25,8 +25,8 @@ const notes = [
 ]
 
 const layerImages = [
-  { src: layer1, alt: 'Miss Dior fragrance base — luminous dropper detail' },
-  { src: layer2, alt: 'Miss Dior fragrance base — gold collar detail' },
+  { src: layer1, alt: 'NIVA fragrance base — luminous dropper detail' },
+  { src: layer2, alt: 'NIVA fragrance base — gold collar detail' },
 ]
 
 export default function NotesPyramid() {

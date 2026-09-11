@@ -53,7 +53,7 @@ export default function Navbar() {
           className="font-display text-2xl tracking-[0.18em] text-deep md:text-3xl"
           onClick={() => setOpen(false)}
         >
-          MISS DIOR
+          NIVA
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

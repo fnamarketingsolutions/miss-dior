@@ -131,7 +131,7 @@ export default function TheRituals() {
           The Ritual
         </p>
         <h2 className="mt-3 text-3xl font-light tracking-wide text-white md:text-5xl">
-          How to wear Miss Dior
+          How to wear NIVA
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-sm font-light leading-relaxed text-[#c2cbd6] md:text-base">
           Three quiet gestures that turn fragrance into presence.

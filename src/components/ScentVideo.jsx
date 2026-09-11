@@ -55,7 +55,7 @@ export default function ScentVideo() {
       ref={sectionRef}
       id="scent-video"
       className="relative min-h-svh overflow-hidden bg-deep"
-      aria-label="Miss Dior film"
+      aria-label="NIVA film"
     >
       <video
         ref={videoRef}

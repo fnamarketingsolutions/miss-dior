@@ -39,7 +39,7 @@ export default function TheScent() {
           Born from a thousand roses
         </h2>
         <p className="scent-reveal mt-6 font-body text-base font-light leading-relaxed text-muted md:text-lg">
-          Miss Dior is a floral ode — bright, tender, and endlessly feminine.
+          NIVA is a floral ode — bright, tender, and endlessly feminine.
           It opens with sparkling citrus light, blooms into a heart of damask
           rose and peony, then settles into a soft, powdered trail of white
           musk and warm woods.

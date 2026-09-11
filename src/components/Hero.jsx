@@ -123,7 +123,7 @@ export default function Hero() {
       <div className="relative z-10 mx-auto grid w-full max-w-6xl items-center gap-8 px-5 py-12 md:grid-cols-2 md:gap-4 md:px-8 md:py-20">
         <div ref={textRef} className="order-2 text-center md:order-1 md:text-left">
           <p className="font-display text-5xl tracking-[0.2em] text-deep md:text-7xl lg:text-8xl">
-            MISS DIOR
+            NIVA
           </p>
           <h1 className="mt-5 font-display text-2xl font-medium italic text-deep md:text-3xl lg:text-4xl">
             A rose for every woman who dares to bloom
@@ -153,7 +153,7 @@ export default function Hero() {
   <img
     ref={bottleRef}
     src={bottle}
-    alt="Miss Dior perfume bottle"
+    alt="NIVA perfume bottle"
     className="h-auto w-[90%] scale-110 object-contain drop-shadow-2xl sm:scale-120 md:w-[min(70vw,640px)] md:scale-125 lg:w-[min(65vw,750px)]"
   />
 </div>

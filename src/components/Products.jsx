@@ -5,8 +5,8 @@ const products = [
   {
     id: 1,
     type: 'product',
-    image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=800&auto=format&fit=crop', // Replace with your Miss Dior EDP image
-    title: 'Miss Dior Eau de Parfum',
+    image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=800&auto=format&fit=crop', // Replace with your NIVA EDP image
+    title: 'NIVA Eau de Parfum',
     description: 'Floral, vanilla, and sensual notes',
     intensity: 1, // 1 of 5 filled dots
     price: 'From ₹ 13,400 - Sprays 50 ml',
@@ -15,15 +15,15 @@ const products = [
     id: 2,
     type: 'editorial',
     image: 'https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=80&w=800&auto=format&fit=crop', // Replace with center ribbon/campaign visual
-    title: 'Miss Dior Eau de Parfum, the new couture icon',
+    title: 'NIVA Eau de Parfum, the new couture icon',
     actionText: 'Discover',
     actionUrl: '#',
   },
   {
     id: 3,
     type: 'product',
-    image: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?q=80&w=800&auto=format&fit=crop', // Replace with Miss Dior Essence image
-    title: 'Miss Dior Essence',
+    image: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?q=80&w=800&auto=format&fit=crop', // Replace with NIVA Essence image
+    title: 'NIVA Essence',
     description: 'Essence de parfum - jammy, floral and woody notes',
     intensity: 4, // 4 of 5 filled dots
     price: 'From ₹ 16,400 - Sprays 35 ml',
@@ -46,7 +46,7 @@ const IntensityDots = ({ level = 1, max = 5 }) => {
   );
 };
 
-export default function MissDiorShowcase() {
+export default function NivaShowcase() {
   return (
     /* my-12 sm:my-16 md:my-24 adds the requested top and bottom margin to the entire section */
     <section className="w-full bg-[#f9f9f9] my-12 sm:my-16 md:my-24 py-6 font-sans antialiased text-[#202020]">

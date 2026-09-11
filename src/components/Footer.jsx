@@ -61,7 +61,7 @@ export default function Footer() {
         </p>
 
         <p className="footer-reveal mt-5 font-display text-[clamp(3.5rem,12vw,8.5rem)] leading-[0.85] tracking-[0.06em] text-deep">
-          Miss Dior
+          NIVA
         </p>
 
         <p className="footer-reveal mt-6 max-w-md font-body text-sm font-light leading-relaxed text-muted md:text-base">
@@ -86,7 +86,7 @@ export default function Footer() {
             Eau de Parfum
           </p>
           <p className="font-body text-[0.7rem] tracking-wide text-muted">
-            © {new Date().getFullYear()} Miss Dior. Inspired fragrance showcase.
+            © {new Date().getFullYear()} NIVA. Inspired fragrance showcase.
           </p>
         </div>
       </div>

@@ -41,7 +41,7 @@ export default function Contact() {
             We’d love to hear from you
           </h1>
           <p className="mt-4 font-body text-base font-light text-muted">
-            Ask about Miss Dior, boutique availability, or a personal scent
+            Ask about NIVA, boutique availability, or a personal scent
             consultation.
           </p>
 
