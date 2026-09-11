@@ -164,7 +164,7 @@ export default function BoutiqueScene({
       camera={{ position: [0, 2.1, 7.8], fov: 46, near: 0.1, far: 60 }}
       gl={{ antialias: true, alpha: true }}
       onPointerMissed={() => onClearSelection?.()}
-      className={`h-full w-full ${selectedId ? 'touch-pan-y' : 'touch-none'}`}
+      className="h-full w-full touch-pan-y"
     >
       <Suspense fallback={null}>
         <SceneContent
